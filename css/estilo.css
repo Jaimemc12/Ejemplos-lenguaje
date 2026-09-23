@@ -1,0 +1,120 @@
+.ENT {
+    background-color:red
+}
+
+.DIG {
+    background-color:rgb(43, 168, 251)
+}
+
+.SIS {
+    background-color:rgb(0, 126, 128)
+}
+
+.BD {
+    background-color:rgb(144, 161, 140)
+}
+
+.ING {
+    background-color:orange
+}
+
+.PRO {
+    background-color:rgb(205, 255, 26)
+}
+
+.PROI {
+    background-color:rgb(255, 33, 151)
+}
+
+.LM {
+    background-color:rgb(111, 55, 202)
+}
+
+.SOS {
+    background-color:rgb(68, 250, 93)
+}
+
+header {
+    background-color:rgb(98, 98, 95);
+    text-align:center;
+    padding:20px 30px;
+    border-radius:10px;
+}
+
+footer {
+    background-color:rgb(98, 98, 95);
+    text-align:center;
+    padding:20px 30px;
+    border-radius:10px;
+}
+
+
+    /*css formulario */
+
+    body {
+      margin: 0;
+      padding: 24px 12px;
+      background: #eaf1fb;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      color: #111;
+    }
+
+    .contenedor {
+      max-width: 640px;
+      margin: 0 auto;
+      background: #fff;
+      border-radius: 12px;
+      padding: 20px 24px 24px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, .12);
+    }
+
+    h1 {
+      font-size: 20px;
+      margin: 0 0 12px;
+    }
+
+    fieldset {
+      margin: 0 0 10px;
+      padding: 10px 14px 6px;
+      border: 1px solid #d6dbe3;
+      border-radius: 4px;
+    }
+
+    legend {
+      padding: 0 4px;
+      font-size: 13px;
+      color: #333;
+    }
+
+    p {
+      margin: 0 0 12px;
+    }
+
+    label {
+      display: inline-block;
+      margin-right: 4px;
+    }
+
+    .opciones label {
+      display: block;
+      margin: 0;
+    }
+
+    .opciones p {
+      margin-bottom: 4px;
+    }
+
+    textarea {
+      width: 100%;
+      max-width: 360px;
+      box-sizing: border-box;
+    }
+
+    input:focus-visible,
+    select:focus-visible,
+    textarea:focus-visible,
+    button:focus-visible {
+      outline: 2px solid #1f5fbf;
+      outline-offset: 1px;
+    }
