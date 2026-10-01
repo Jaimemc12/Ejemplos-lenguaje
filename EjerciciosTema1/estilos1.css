@@ -1,0 +1,29 @@
+.link{
+
+    border: 2px solid blue;
+    background-color: gray;
+}
+
+.ej1{
+    
+    border: 2px solid blue;
+}
+
+h2{
+    color: red;
+}
+
+.imagen{
+    
+    display: flex;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+
+
+}
+
+.marco{
+
+    margin: 10px;
+}
