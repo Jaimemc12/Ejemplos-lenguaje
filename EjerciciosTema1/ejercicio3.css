@@ -1,0 +1,17 @@
+table { margin: 25px auto; }
+caption { font-style: italic; padding-bottom: 2px; }
+
+/* Tabla 1 */
+#t1 { border: 3px solid #2a1fd6; border-spacing: 8px; padding: 12px; width: 440px; }
+#t1 th { text-align: center; }
+#t1 td { border: 2px solid #2a1fd6; height: 50px; padding-left: 15px; }
+
+/* Tabla 2 */
+#t2 { border-collapse: collapse; border: 2px solid #e6c200; width: 530px; }
+#t2 th, #t2 td {
+  border: 2px solid #e6c200;
+  height: 68px;
+  text-align: center;
+  background: #dcdcdc;
+}
+#t2 .verde { background: #9acd32; }

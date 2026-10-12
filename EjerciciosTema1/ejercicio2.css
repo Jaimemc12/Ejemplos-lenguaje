@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: url("../Imagenes/flor.svg") no-repeat center top;
+  background-size: 100% 100%;
+  font-family: "Times New Roman", serif;
+}
+h4 { text-align: center; color: #e8401c; margin: 0; padding-top: 10px; }
+.boton {
+  display: inline-block;
+  background: #f0c000;
+  color: #fff;
+  padding: 12px 10px;
+  font-size: 11px;
+  text-decoration: none;
+}
+.boton-cap { margin-left: 8px; }
+pre { font-size: 9px; text-align: center; width: 90px; margin: 12px 10px; }
+.fila { margin: 20px 5px; }
+#cap4 {
+  position: absolute; bottom: 20px; left: 4%; right: 3%;
+  background: cornflowerblue;
+  border: 1px solid #000;
+  padding: 6px 20px;
+  font-weight: bold;
+  font-size: 11px;
+}
+#cap4 a {
+  background: #fff; color: #000;
+  font-weight: normal; font-size: 9px;
+  padding: 1px 3px; border: 1px solid #999;
+  text-decoration: none;
+}
