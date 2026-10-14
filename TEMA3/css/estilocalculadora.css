@@ -1,0 +1,129 @@
+:root {
+  --fondo-pagina: #1e1f26;
+  --fondo-calculadora: #2a2c36;
+  --fondo-pantalla: #1a1b22;
+  --color-texto: #f5f6fa;
+  --btn-numero: #3a3d4b;
+  --btn-numero-hover: #474b5c;
+  --btn-borrar: #ee5253;
+  --btn-borrar-hover: #ff6b6b;
+  --btn-operador: #ff9f43;
+  --btn-operador-hover: #ffb066;
+  --btn-igual: #10ac84;
+  --btn-igual-hover: #1dd1a1;
+  --radio: 14px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--fondo-pagina);
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: var(--color-texto);
+}
+
+/* ---------- Tabla = cuerpo de la calculadora ---------- */
+table {
+  width: 340px;
+  table-layout: fixed;          /* columnas del mismo ancho */
+  border-collapse: separate;
+  border-spacing: 10px;         /* hueco entre botones */
+  background: var(--fondo-calculadora);
+  border-radius: 24px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.45);
+}
+
+td,
+th {
+  padding: 0;
+}
+
+/* ---------- Pantalla (thead) ---------- */
+thead th {
+  background: var(--fondo-pantalla);
+  border-radius: var(--radio);
+  padding: 18px 16px;
+  font-size: 2.2rem;
+  font-weight: 300;
+  text-align: right;
+  overflow: hidden;
+}
+
+/* Por si la pantalla es un <input> o un <div> dentro del th */
+thead input,
+thead div {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: var(--color-texto);
+  font-size: 2.2rem;
+  font-weight: 300;
+  font-family: inherit;
+  text-align: right;
+}
+
+/* ---------- Botones ---------- */
+button {
+  width: 100%;
+  height: 62px;
+  border: none;
+  border-radius: var(--radio);
+  background: var(--btn-numero);
+  color: var(--color-texto);
+  font-size: 1.4rem;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background 0.15s ease, transform 0.1s ease;
+}
+
+button:hover {
+  background: var(--btn-numero-hover);
+}
+
+button:active {
+  transform: scale(0.94);
+}
+
+button:focus-visible {
+  outline: 2px solid var(--btn-operador);
+  outline-offset: 2px;
+}
+
+/* Operadores: última columna de las 4 primeras filas (/ * - +) */
+tbody tr:nth-child(-n + 4) td:last-child button {
+  background: var(--btn-operador);
+  font-size: 1.6rem;
+}
+
+tbody tr:nth-child(-n + 4) td:last-child button:hover {
+  background: var(--btn-operador-hover);
+}
+
+/* Igual: fila 4, tercera celda */
+tbody tr:nth-child(4) td:nth-child(3) button {
+  background: var(--btn-igual);
+  font-size: 1.6rem;
+}
+
+tbody tr:nth-child(4) td:nth-child(3) button:hover {
+  background: var(--btn-igual-hover);
+}
+
+/* Botón C (celda con colspan) */
+td[colspan] button {
+  background: var(--btn-borrar);
+  font-weight: 600;
+}
+
+td[colspan] button:hover {
+  background: var(--btn-borrar-hover);
+}
+
