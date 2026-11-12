@@ -27,3 +27,14 @@ h2{
 
     margin: 10px;
 }
+header {
+    background-color:rgb(98, 98, 95);
+    text-align:center;
+    padding:20px 30px;
+    border-radius:10px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}

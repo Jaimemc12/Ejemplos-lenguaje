@@ -62,3 +62,9 @@ ul.vertical li a {
 ul.vertical li.activo a {
     background-color: #ee1c1c;
 }
+header {
+    background-color:rgb(98, 98, 95);
+    text-align:center;
+    padding:20px 30px;
+    border-radius:10px;
+}
