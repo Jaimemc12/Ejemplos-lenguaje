@@ -18,12 +18,13 @@
   box-sizing: border-box;
 }
 
+/* La calculadora queda en el centro de la pantalla */
 body {
   margin: 0;
   min-height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: center;    /* centrado horizontal */
+  align-items: center;        /* centrado vertical */
   background: var(--fondo-pagina);
   font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   color: var(--color-texto);
@@ -127,3 +128,19 @@ td[colspan] button:hover {
   background: var(--btn-borrar-hover);
 }
 
+/* ---------- Enlace "Volver a la página principal" ---------- */
+header {
+  position: absolute;         /* fuera del flujo: no afecta al centrado */
+  top: 20px;
+  left: 20px;
+  background-color: rgb(98, 98, 95);
+  text-align: center;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
