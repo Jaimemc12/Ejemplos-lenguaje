@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mensaje>
+    <remite nombre="Juan" email="juan@gmail.com"></remite>
+    <destinatario nombre="Pepe" email="pepe@gmail.com"></destinatario>
+    
+    <asunto>
+        <Felicitación>
+        </Felicitación>
+    </asunto>
+
+    <parrafo>
+        <Felicidades_por_tu_ascenso>
+        </Felicidades_por_tu_ascenso>
+    </parrafo>
+
+    <parrafo>
+        <Un_Saludo>
+        </Un_Saludo>
+    </parrafo>
+
+    <comentario>Este mensaje es confidencial</comentario>
+</mensaje>

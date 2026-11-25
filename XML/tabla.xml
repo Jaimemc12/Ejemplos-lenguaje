@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tabla>
+    <fila id="1">
+        <fecha>41934</fecha>
+        <producto>Pdto001</producto>
+        <comprador>Pepe</comprador>
+        <cantidad>5</cantidad>
+        <precio>5,50</precio>
+    </fila>
+
+    <fila id="2">
+        <fecha>41895</fecha>
+        <producto>Pdto002</producto>
+        <comprador>Ana</comprador>
+        <cantidad>11</cantidad>
+        <precio>12,10</precio>
+    </fila>
+
+    <fila id="3">
+        <fecha>41744</fecha>
+        <producto>Pdto003</producto>
+        <comprador>Pepe</comprador>
+        <cantidad>1</cantidad>
+        <precio>1,10</precio>
+    </fila>
+
+    <fila id="4">
+        <fecha>41931</fecha>
+        <producto>Pdto004</producto>
+        <comprador>Ana</comprador>
+        <cantidad>3</cantidad>
+        <precio>3,30</precio>
+    </fila>    
+</tabla>
